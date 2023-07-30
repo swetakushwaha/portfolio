@@ -290,15 +290,16 @@ const achievementSection = {
     }, /*
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      title: "Microsoft Learn AI Skill Challenge",
+      subtitle: "Completed Microsoft Learn AI Skill Challenge on Microsoft Azure, demonstrating expertise in artificial intelligence
+technologies and cloud computing.",
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
         {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1ZM5ExmzCygm2TTG0M8hPLCr3NBqNwBBF/view?usp=sharing"
         }
       ]
     } */
