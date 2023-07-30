@@ -287,22 +287,20 @@ const achievementSection = {
           url: "https://media.licdn.com/dms/image/C561FAQEgwcDa5jEEqg/feedshare-document-cover-images_1280/0/1671716431651?e=1689710400&v=beta&t=bJFheqM1cCpVmD2FHjP0cowLDjd69POM47cldCxdQdw"
         }
       ]
-    }, /*
+    }, 
 
     {
       title: "Microsoft Learn AI Skill Challenge",
-      subtitle: "Completed Microsoft Learn AI Skill Challenge on Microsoft Azure, demonstrating expertise in artificial intelligence
-technologies and cloud computing.",
+      subtitle: "Completed Microsoft Learn AI Skill Challenge on Microsoft Azure, demonstrating expertise in artificial intelligence technologies and cloud computing.",
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
           name: "Certification",
           url: "https://drive.google.com/file/d/1ZM5ExmzCygm2TTG0M8hPLCr3NBqNwBBF/view?usp=sharing"
         }
       ]
-    } */
+    } 
   ],
   display: true // Set false to hide this section, defaults to true
 };
