@@ -26,7 +26,7 @@ const greeting = {
     "A skilled Software Development Engineer 💻 proficient in a wide range of programming languages and frameworks, specializing in creating applications using Java / Python / C++ / JavaScript, with expertise in data structures, algorithms, and software design patterns."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/192PBSREhTiN41aT1UTOqwPYzPEp6-QOg/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1oANb8q4jcs070ESqI_567P4k2mqjqZEF/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -183,6 +183,7 @@ const workExperiences = {
         "Improved search performance and efficiency of the Warehouse Management System by archiving database records.",
         "Implemented test infrastructure setup for the migration of on-premise warehouse system jobs over azure cloud.",
         "Handled critical incidents on their own, with minimal supervision.",
+        "Significantly contributed to integration, end-to-end, and system testing phases, leveraging expertise to enhance software performance.",
         "Improved the processing time of BI reports by 80%.",
         "Volunteered as a class representative for a group of 20 students, handling feedback and issues with academic mentors while undergoing SAP WM training at Accenture."
       ]
@@ -207,9 +208,10 @@ const workExperiences = {
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
+
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -284,7 +286,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://media.licdn.com/dms/image/C561FAQEgwcDa5jEEqg/feedshare-document-cover-images_1280/0/1671716431651?e=1689710400&v=beta&t=bJFheqM1cCpVmD2FHjP0cowLDjd69POM47cldCxdQdw"
+          url: "https://drive.google.com/file/d/1d7qnL7UYqPvlbZ4ZWEGWdVuhKE5ITkeG/view?usp=drive_link"
         }
       ]
     }, 
