@@ -26,7 +26,7 @@ const greeting = {
     "A skilled Software Development Engineer 💻 proficient in a wide range of programming languages and frameworks, specializing in creating applications using Java / Python / C++ / JavaScript, with expertise in data structures, algorithms, and software design patterns."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1oANb8q4jcs070ESqI_567P4k2mqjqZEF/view?usp=drive_link", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1vf-TBKzDTYYszCl7wVf29q4FoNrQWT4d/edit?usp=sharing&ouid=102532600281971332054&rtpof=true&sd=true", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
