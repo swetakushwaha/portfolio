@@ -56,7 +56,7 @@ const skillsSection = {
     ),
     emoji("⚡ Proficient in efficient implementation of data structures for optimal performance."),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as Azure/ AWS / Digital Ocean"
     )
   ],
 
@@ -132,7 +132,7 @@ const educationInfo = {
       duration: "September 2022 - April 2024(Exp.)",
       //desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
-        "Courses: Computer Architecture, Algorithms (Design, Analysis, and Implementation), Graphics Shaders, Error Correcting Codes, Parallel Programming, Human-Computer Interaction"
+        "Courses: Computer Architecture, Algorithms (Design, Analysis, and Implementation), Graphics Shaders, Machine Learning, Parallel Programming, Human-Computer Interaction"
       ]
     },
     {
@@ -179,22 +179,25 @@ const workExperiences = {
       date: "August 2019 – Febrary 2022",
       //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Implemented Warehouse Management System for a Retail Supermarket client.",
-        "Improved search performance and efficiency of the Warehouse Management System by archiving database records.",
-        "Implemented test infrastructure setup for the migration of on-premise warehouse system jobs over azure cloud.",
-        "Handled critical incidents on their own, with minimal supervision.",
-        "Significantly contributed to integration, end-to-end, and system testing phases, leveraging expertise to enhance software performance.",
-        "Improved the processing time of BI reports by 80%.",
+        "Proposed and attained a 30% improvement in Warehouse Management System(SAP EWM) search performance, a key performance indicator (KPI), through database record archiving, and SQL optimization.",
+        "Deployed test infrastructure with environment provisioning, end-to-end test case development, performance testing, API configuration, and web services integration to seamlessly migrate over 20+ on-premise warehouse system jobs to Azure cloud.",
+        "Improved integration with SAP S/4HANA on Azure by gathering requirements and developing C++ enhancements, leading to a 15% reduction in business logic processing time using agile methodologies for end-to-end testing and CI/CD processes.",
+        "Engineered an 80% reduction in BI report processing time through cross-functional teamwork by data analysis, processing, optimizing ETL pipelines and implementing APIs for seamless data connection to Power BI via Azure Data Factory for reporting.",
+        "Oversaw and troubleshoot critical incidents, incident response independently, achieving a remarkable 95% resolution rate with minimal supervision.",
         "Volunteered as a class representative for a group of 20 students, handling feedback and issues with academic mentors while undergoing SAP WM training at Accenture."
       ]
-    },/*
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
+    {
+      role: "Software Engineer",
+      company: "Oregon State Unversity",
+      companylogo: require("./assets/images/quoraLogo.png"),
+      date: "Dec 2023 – Current",
+      desc: "Led model-driven app development with expertise in Dataverse, Power Automate, SharePoint, Docusign, SQL, ETL, leveraging cloud computing and web services to cut data processing time by 25%. Utilized JSON for debugging and optimized workflows.",
+        "Administered end-user accounts independently, ensuring 100% secure access. Developed, managed, and maintained end-to-end testing and deployment processes throughout the software development life cycle, achieving a 98% acceptance rate.",
+        "Designed and optimized databases for 30% faster data retrieval, aligning schemas with business insights and feedback, to enhance data collection, storage, and processing efficiency.",
+        "Enhanced collaboration, optimized integration testing, and improved user experience with wireframes and design patterns, utilizing Visio. Achieved a significant 45% reduction in development expenditures and secured $15K in funding.",
+        "Boosted system reliability by 20% across web app development, backend systems, cloud infrastructure, leveraging microservices in a fast-paced enterprise software environment."
+    },/*
     {
       role: "Software Engineer Intern",
       company: "Airbnb",
@@ -208,10 +211,9 @@ const workExperiences = {
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
-
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -286,23 +288,24 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/1d7qnL7UYqPvlbZ4ZWEGWdVuhKE5ITkeG/view?usp=drive_link"
+          url: "https://media.licdn.com/dms/image/C561FAQEgwcDa5jEEqg/feedshare-document-cover-images_1280/0/1671716431651?e=1689710400&v=beta&t=bJFheqM1cCpVmD2FHjP0cowLDjd69POM47cldCxdQdw"
         }
       ]
-    }, 
+    }, /*
 
     {
-      title: "Microsoft Learn AI Skill Challenge",
-      subtitle: "Completed Microsoft Learn AI Skill Challenge on Microsoft Azure, demonstrating expertise in artificial intelligence technologies and cloud computing.",
+      title: "PWA Web App Developer",
+      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
+        {name: "Certification", url: ""},
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/1ZM5ExmzCygm2TTG0M8hPLCr3NBqNwBBF/view?usp=sharing"
+          name: "Final Project",
+          url: "https://pakistan-olx-1.firebaseapp.com/"
         }
       ]
-    } 
+    } */
   ],
   display: true // Set false to hide this section, defaults to true
 };
